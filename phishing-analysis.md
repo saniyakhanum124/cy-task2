@@ -1,12 +1,12 @@
 # Phishing Email Analysis Report
 
-## 1️⃣ Sample
+## 1.Sample
 
 -   File analyzed: **PhishingSample.EML.txt**\
 -   Content: Marketing-style email promoting **"KetoXplode" weight loss
     gummies**, mostly in German.
 
-## 2️⃣ Sender Address (Spoofing Check)
+## 2.Sender Address (Spoofing Check)
 
 -   **From:** Magisches Schlankheitssystem🤸‍♀️✅
     <otto-newsletter@newsletter.otto.de>\
@@ -17,7 +17,7 @@
     -   Actual domain is `winner-win.art` --- unrelated to Otto.\
     -   Classic spoofing.
 
-## 3️⃣ Email Header Discrepancies
+## 3.Email Header Discrepancies
 
 -   **SPF:** softfail --- "domain of transitioning winner-win.art
     discourages use of 80.96.157.90 as permitted sender."\
@@ -27,32 +27,32 @@
 -   **Microsoft Spam Score:** SCL:7 and BCL:8 --- very high spam/phish
     likelihood.
 
-## 4️⃣ Suspicious Links / Attachments
+## 4.Suspicious Links / Attachments
 
 Extracted URLs: - hxxps://t\[.\]co/eYVtqVunRC\
 - hxxp://bsq2\[.\]firiri\[.\]shop/... (multiple variations)\
 - Hidden tracker: hxxp://bsq2\[.\]firiri\[.\]shop/RStjU3...
 
-⚠️ No attachments, but the links are unsafe.
+---No attachments, but the links are unsafe.----
 
-## 5️⃣ Urgent / Threatening Language
+## 5.Urgent / Threatening Language
 
 -   "Beeilen Sie sich!" ("Hurry up!")
 -   "Extrem hohe Nachfrage" ("extremely high demand")
 -   Uses scarcity and urgency to trick users.
 
-## 6️⃣ Mismatched URLs
+## 6. Mismatched URLs
 
 -   Display text suggests a known brand "Otto" but hover links actually
     point to t.co shortener → redirects to unknown firiri.shop.
 -   Clear mismatch between visible brand and real destination.
 
-## 7️⃣ Spelling / Grammar
+## 7. Spelling / Grammar
 
 -   Mostly grammatically correct German.
 -   Spammy formatting: all-caps, emojis, flashy text.
 
-## 8️⃣ Summary of Phishing Traits
+## 8.Summary of Phishing Traits
 
 -   Spoofed sender pretending to be Otto.
 -   Failed SPF/DKIM/DMARC authentication.
@@ -61,7 +61,7 @@ Extracted URLs: - hxxps://t\[.\]co/eYVtqVunRC\
 -   Hidden tracking pixels.
 -   High spam score (SCL:7).
 
-## ✅ Conclusion
+## Conclusion
 
 This email is a phishing/spam campaign to lure users to click a
 shortened link leading to fraudulent pages.\
